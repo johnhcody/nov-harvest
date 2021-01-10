@@ -8,17 +8,17 @@ interface State {
     
 }
 
-class Cv extends Component<Props, State> {
+class Csa extends Component<Props, State> {
     state = {}
 
     render() {
         return (
             <BaseLayout>
-                <h1>hello from the CV page</h1>
+                <h1>hello from the CSA page</h1>
                 <h2>test</h2>
             </BaseLayout>
         )
     }
 }
 
-export default Cv
+export default Csa

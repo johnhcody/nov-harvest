@@ -16,30 +16,7 @@ const Index = (props: Props) => {
 
     return (
             <BaseLayout>
-                <div className="index-page-wrapper">
-                    <div className="image-wrapper">
-                        <Image 
-                            src="/splash-background.jpg"
-                            alt="Picture of the author"
-                            // width={500}
-                            // height={500}
-                            className="background"
-                            layout="fill"
-                        />
-                    </div>
-                    <Typed
-                    strings={[
-                        'I am a writer',
-                        'I am a journalist',
-                        'I am a storyteller',
-                        'I am a leader']}
-                        typeSpeed={40}
-                        backSpeed={50}
-                        backDelay={1000}
-                        className="typed-text"
-                        loop
-                    />
-                </div>
+                <h1>Hello from Index Page</h1>
             </BaseLayout>
     )
 }

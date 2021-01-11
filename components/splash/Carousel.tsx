@@ -10,18 +10,18 @@ import {
 const items = [
     {
         src: 'https://novembers-harvest.s3.ap-northeast-2.amazonaws.com/nov-harvest-carousel-1.png',
-        altText: 'Slide 1',
-        caption: 'Slide 1'
+        altText: 'Slide 1 Text',
+        caption: ''
     },
     {
         src: 'https://novembers-harvest.s3.ap-northeast-2.amazonaws.com/nov-harvest-car-2.png',
         altText: 'Slide 2',
-        caption: 'Slide 2'
+        caption: ''
     },
     {
         src: 'https://novembers-harvest.s3.ap-northeast-2.amazonaws.com/nov-harvest-car-3.png',
         altText: 'Slide 3',
-        caption: 'Slide 3'
+        caption: ''
     }
 ];
 
@@ -54,7 +54,7 @@ const SplashCarousel = (props) => {
                 key={item.src}
             >
                 <img src={item.src} alt={item.altText} />
-                <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+                <CarouselCaption captionText={item.caption} />
             </CarouselItem>
         );
     });

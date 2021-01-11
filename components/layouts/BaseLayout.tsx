@@ -1,5 +1,6 @@
 import { Header } from '../shared/Header'
 import Head from 'next/head'
+import { Footer } from '../shared/Footer'
 
 import React from 'react'
 
@@ -15,6 +16,7 @@ const BaseLayout = (props: Props) => {
           </Head>
           <Header />  
           {props.children}
+          <Footer />
         </>
     )
 }

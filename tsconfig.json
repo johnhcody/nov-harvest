@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "utils/dbConnect.js"  ],
+, "utils/dbConnect.js" ],
   "exclude": [
     "node_modules"
   ]

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import BaseLayout from '../components/layouts/BaseLayout'
-
+import ContactForm from '../components/contact/ContactForm';
 interface Props {
 
 }
@@ -14,7 +14,10 @@ class Csa extends Component<Props, State> {
     render() {
         return (
             <BaseLayout>
-                <h1>hello from the Contact page</h1>
+                <div className="text-wrapper">
+                    <h1>Get in touch!</h1>
+                </div>
+                <ContactForm />
             </BaseLayout>
         )
     }

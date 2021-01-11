@@ -30,7 +30,7 @@ const ParaOne = (props: Props) => {
                 <div className="text-container">
                     <p>After tinkering with homesteading and permaculture on a 1 acre holding on the Saco River, Kathryn, the director of ministry, community engagement, and social justice at a local liberal arts college, and Myke, a former farm manager decided to make a life out of agriculture and education. November’s Harvest is committed to growing quality food with equal focus on community engagement, teaching sustainability and resilience, and giving back to the community. We work with local schools, community groups, and civic organizations to make our community a stronger and more vibrant place to live.</p>
                 </div>
-                <div className="img-container">
+                <div className="img-container-bottom">
                     <img src="https://novembers-harvest.s3.ap-northeast-2.amazonaws.com/table-view.jpg" alt="Novembers Harvest Backyard"/>
                 </div>
             </div>

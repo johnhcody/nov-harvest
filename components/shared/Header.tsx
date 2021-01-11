@@ -34,7 +34,7 @@ export const Header = (props: Props) => {
             <Link href="/csa">
                 <a> CSA </a>
             </Link>
-            <Link href="/csa">
+            <Link href="/contact">
                 <a> Contact </a>
             </Link>
         </div>
